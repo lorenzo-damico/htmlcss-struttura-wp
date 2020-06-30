@@ -6,6 +6,18 @@
 
 header {
   background-color: #FFFF3B;
-  height: 120px;
+  height: 150px;
   margin-top: 15px;
+}
+
+.colonna-sinistra {
+  background-color: #CC87DA;
+  width: 30%;
+  height: 250px;
+}
+
+.colonna-centrale {
+  background-color: #730671;
+  width: 45%;
+  height: 300px;
 }
