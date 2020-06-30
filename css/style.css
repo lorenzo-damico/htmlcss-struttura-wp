@@ -6,13 +6,12 @@
 
 #container {
   width: 80%;
-  margin: auto; 
+  margin: auto;
 }
-
 
 header {
   background-color: #FFFF3B;
-  height: calc(25vh - 15px);
+  height: calc(20vh - 15px);
   margin-top: 15px;
 }
 
@@ -26,18 +25,17 @@ main::after {
   clear: both;
 }
 
-
 .colonna-sinistra {
   background-color: #CC87DA;
   width: 30%;
-  height: 40vh;
+  height: 50vh;
   float: left;
 }
 
 .colonna-centrale {
   background-color: #730671;
-  width: 43%;
-  height: calc(60vh - 10px);
+  width: calc(45% - 2%);
+  height: calc(70vh - 10px);
   float: left;
   margin: 0 1%;
 }
@@ -49,7 +47,7 @@ main::after {
 
 .widget {
   background-color: #CC87DA;
-  height: 27vh;
+  height: 32vh;
 }
 
 .widget:nth-child(2) {
@@ -58,6 +56,6 @@ main::after {
 
 footer {
   background-color: #A4D2E1;
-  height: calc(15vh - 15px);
+  height: calc(10vh - 15px);
   margin-bottom: 15px;
 }
