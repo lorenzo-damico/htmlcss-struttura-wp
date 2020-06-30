@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: #FFFF3B;
+  height: 120px;
+  margin-top: 15px;
+}
