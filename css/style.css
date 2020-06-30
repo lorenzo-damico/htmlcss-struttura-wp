@@ -14,10 +14,26 @@ header {
   background-color: #CC87DA;
   width: 30%;
   height: 250px;
+  float: left;
 }
 
 .colonna-centrale {
   background-color: #730671;
   width: 45%;
-  height: 300px;
+  height: 350px;
+  float: left;
+}
+
+.colonna-destra {
+  width: 25%;
+  float: left;
+}
+
+.colonna-destra .widget {
+  background-color: #CC87DA;
+  height: 160px;
+}
+
+.widget:nth-child(2) {
+  margin-top: 10px;
 }
